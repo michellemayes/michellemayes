@@ -14,6 +14,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { createHash } from "node:crypto";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -210,6 +211,12 @@ function renderPins(pins) {
   return [PINS_START, "<!-- generated weekly — do not edit by hand -->", ...lines, PINS_END].join("\n");
 }
 
+// GitHub's image proxy caches README images by URL, so a ?v= stamp taken from the
+// card's contents makes it fetch the fresh card whenever it changes.
+function bustImageCache(readme, version) {
+  return readme.replace(/(assets\/stats(?:-light)?\.svg)\?v=[\w-]*/g, `$1?v=${version}`);
+}
+
 function rewritePins(readme, pins) {
   const startIdx = readme.indexOf(PINS_START);
   const endIdx = readme.indexOf(PINS_END);
@@ -261,7 +268,8 @@ async function main() {
   await writeFile(join(ROOT, "assets/stats-light.svg"), lightSvg);
 
   const readmePath = join(ROOT, "README.md");
-  await writeFile(readmePath, rewritePins(await readFile(readmePath, "utf8"), pins));
+  const readme = rewritePins(await readFile(readmePath, "utf8"), pins);
+  await writeFile(readmePath, bustImageCache(readme, createHash("sha1").update(svg).digest("hex").slice(0, 8)));
 
   console.log("Wrote assets/stats.svg, assets/stats-light.svg, and the README pins block.");
 }
