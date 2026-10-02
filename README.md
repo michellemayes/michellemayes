@@ -32,12 +32,12 @@ Full-stack builder at the intersection of AI and product, based in Austin, TX. I
 **Pinned:**
 <!-- PINS:START -->
 <!-- generated weekly — do not edit by hand -->
-- [meta-doctor](https://github.com/michellemayes/meta-doctor) — Monitoring that writes the fix
-- [terrarium](https://github.com/michellemayes/terrarium) — A tiny glass box for your React components
-- [magic-words](https://github.com/michellemayes/magic-words) — The phrase that steers Claude
-- [vibe-tooling](https://github.com/michellemayes/vibe-tooling) — Tidy-up tools for vibe-coded repos
-- [nootle](https://github.com/michellemayes/nootle) — Lightweight macOS meeting recorder with live transcription and AI summaries
-- [heb-grocery-agent](https://github.com/michellemayes/heb-grocery-agent) — Paste a list, get a full H-E-B cart
+- [meta-doctor](https://github.com/michellemayes/meta-doctor) — Most monitoring tells you something broke. A doctor opens the pull request that fixes it. ★ 31
+- [terrarium](https://github.com/michellemayes/terrarium) — A tiny terrarium to view your TSX & JSX components. Lightweight Mac app built with Tauri & Rust. ★ 14
+- [heb-grocery-agent](https://github.com/michellemayes/heb-grocery-agent) — A Chrome extension that automates your HEB grocery shopping. Simply paste your grocery list, and the extension will search for items and add them to your cart on HEB.com. ★ 4
+- [vibe-tooling](https://github.com/michellemayes/vibe-tooling) — A Claude Code plugin marketplace for code quality tools. ★ 6
+- [magic-words](https://github.com/michellemayes/magic-words) — Describe your problem in plain language. Get the phrase that steers Claude straight at it. Or install the CC plugin and stop having to. ★ 6
+- [Sidequest](https://github.com/michellemayes/Sidequest) — Turn any Slack message into a coding-agent session in one click. ★ 5
 <!-- PINS:END -->
 
 [michellemayes.me](https://michellemayes.me) · [LinkedIn](https://linkedin.com/in/michellejmayes) · [X](https://twitter.com/michellejmayes)
