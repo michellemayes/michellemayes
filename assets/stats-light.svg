@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="236" viewBox="0 0 640 236" role="img" aria-label="GitHub stats for michellemayes: —-day streak, longest streak — days, — contributions in the past year, — public repos, — stars">
+  <!--
+    Written in the dark palette. scripts/generate-profile.mjs derives
+    assets/stats-light.svg by mapping each hex (LIGHT_THEME), so every color
+    added here needs a light value there.
+    Placeholders ({{...}}) are string-substituted by the generator.
+    No <script>, no external refs: GitHub's camo <img> proxy strips them.
+    Motion is CSS-only and collapses to the static state under reduced motion.
+  -->
+  <style>
+    .mono  { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .sans  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+    .num   { font-variant-numeric: tabular-nums; }
+
+    /* Wordmark gradient cycles through the site's accent hues. */
+    .wstop { animation: hue-cycle 8s linear infinite; }
+    @keyframes hue-cycle {
+      0%   { stop-color: #7c3aed; } /* violet */
+      25%  { stop-color: #be185d; } /* rose   */
+      50%  { stop-color: #b45309; } /* amber  */
+      75%  { stop-color: #15803d; } /* leaf   */
+      100% { stop-color: #7c3aed; } /* → violet */
+    }
+
+    /* Weekly bars rise once on load, left to right (delay set per bar). */
+    .bar     { fill: #a78bfa; transform-box: fill-box; transform-origin: 50% 100%;
+               animation: bar-rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+    .bar-now { fill: #b45309; }
+    @keyframes bar-rise { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+    /* Status dot breathes. */
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .wstop, .bar, .pulse { animation: none; }
+    }
+
+    .wordmark   { fill: url(#hues); font-size: 15px; font-weight: 700; letter-spacing: 0.4px; }
+    .meta       { fill: #4c4361; font-size: 11px; }
+    .hero       { fill: url(#violet); font-size: 56px; font-weight: 700; }
+    .hero-label { fill: #4c4361; font-size: 13px; }
+    .stat-num   { fill: #3b2a6b; font-size: 22px; font-weight: 600; }
+    .stat-label { fill: #4c4361; font-size: 11px; letter-spacing: 0.2px; }
+    .star       { fill: #b45309; }
+    .dot        { fill: #15803d; }
+    .rule       { stroke: #7c3aed; stroke-opacity: 0.35; stroke-width: 1; }
+    .rule-faint { stroke: #7c3aed; stroke-opacity: 0.18; stroke-width: 1; }
+  </style>
+
+  <defs>
+    <!-- Negative delays phase-shift the stops so the colors sweep instead of pulsing in unison. -->
+    <linearGradient id="hues" x1="0" y1="0" x2="1" y2="0">
+      <stop class="wstop" offset="0%"   stop-color="#7c3aed" style="animation-delay: 0s"/>
+      <stop class="wstop" offset="50%"  stop-color="#be185d" style="animation-delay: -2s"/>
+      <stop class="wstop" offset="100%" stop-color="#b45309" style="animation-delay: -4s"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="639" height="235" rx="12" fill="#fafaf8" stroke="#ddd6fe"/>
+
+  <!-- Header -->
+  <circle class="dot pulse" cx="28" cy="29" r="4"/>
+  <text class="mono wordmark" x="40" y="34">michellemayes</text>
+  <text class="mono meta num" x="616" y="34" text-anchor="end">updated pending first run</text>
+  <line class="rule" x1="24" y1="50" x2="616" y2="50"/>
+
+  <!-- Hero: current streak -->
+  <text class="sans hero num" x="24" y="118">—</text>
+  <text class="mono hero-label" x="26" y="140">day streak · best —</text>
+
+  <!-- Stat grid -->
+  <line class="rule-faint" x1="236" y1="66" x2="236" y2="146"/>
+
+  <text class="sans stat-num num" x="260" y="94">—</text>
+  <text class="mono stat-label" x="260" y="112">contributions / yr</text>
+
+  <text class="sans stat-num num" x="440" y="94">—</text>
+  <text class="mono stat-label" x="440" y="112">public repos</text>
+
+  <text class="sans stat-num num" x="260" y="140"><tspan class="star">★</tspan> —</text>
+  <text class="mono stat-label" x="260" y="158">stars earned</text>
+
+  <text class="sans stat-num num" x="440" y="140">—</text>
+  <text class="mono stat-label" x="440" y="158">most-used language</text>
+
+  <!-- Weekly contributions, past year -->
+  <line class="rule-faint" x1="24" y1="172" x2="616" y2="172"/>
+  <g transform="translate(24 184)">
+    
+  </g>
+</svg>
