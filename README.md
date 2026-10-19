@@ -4,8 +4,8 @@ Full-stack builder at the intersection of AI and product, based in Austin, TX. I
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats-light.svg?v=d289d0af" />
-    <img src="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats.svg?v=d289d0af" alt="GitHub stats, updated weekly" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats-light.svg?v=e62e0a6a" />
+    <img src="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats.svg?v=e62e0a6a" alt="GitHub stats, updated weekly" />
   </picture>
 </p>
 
@@ -34,10 +34,10 @@ Full-stack builder at the intersection of AI and product, based in Austin, TX. I
 <!-- generated weekly — do not edit by hand -->
 - [meta-doctor](https://github.com/michellemayes/meta-doctor) — Most monitoring tells you something broke. A doctor opens the pull request that fixes it. ★ 31
 - [terrarium](https://github.com/michellemayes/terrarium) — A tiny terrarium to view your TSX & JSX components. Lightweight Mac app built with Tauri & Rust. ★ 14
-- [heb-grocery-agent](https://github.com/michellemayes/heb-grocery-agent) — A Chrome extension that automates your HEB grocery shopping. Simply paste your grocery list, and the extension will search for items and add them to your cart on HEB.com. ★ 4
-- [vibe-tooling](https://github.com/michellemayes/vibe-tooling) — A Claude Code plugin marketplace for code quality tools. ★ 6
 - [magic-words](https://github.com/michellemayes/magic-words) — Describe your problem in plain language. Get the phrase that steers Claude straight at it. Or install the CC plugin and stop having to. ★ 6
 - [Sidequest](https://github.com/michellemayes/Sidequest) — Turn any Slack message into a coding-agent session in one click. ★ 6
+- [flodo](https://github.com/michellemayes/flodo) — A floating to-do list app. One infinite list with checkboxes and a toggle to hide what you've finished. That's the whole app. ★ 5
+- [heb-grocery-agent](https://github.com/michellemayes/heb-grocery-agent) — A Chrome extension that automates your HEB grocery shopping. Simply paste your grocery list, and the extension will search for items and add them to your cart on HEB.com. ★ 4
 <!-- PINS:END -->
 
 [michellemayes.me](https://michellemayes.me) · [LinkedIn](https://linkedin.com/in/michellejmayes) · [X](https://twitter.com/michellejmayes)
