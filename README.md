@@ -4,8 +4,8 @@ Full-stack builder at the intersection of AI and product, based in Austin, TX. I
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats-light.svg?v=e62e0a6a" />
-    <img src="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats.svg?v=e62e0a6a" alt="GitHub stats, updated weekly" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats-light.svg?v=c4e63a00" />
+    <img src="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats.svg?v=c4e63a00" alt="GitHub stats, updated weekly" />
   </picture>
 </p>
 
