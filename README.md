@@ -4,8 +4,8 @@ Full-stack builder at the intersection of AI and product, based in Austin, TX. I
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats-light.svg?v=822fee61" />
-    <img src="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats.svg?v=822fee61" alt="GitHub stats, updated weekly" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats-light.svg?v=a622b1ca" />
+    <img src="https://raw.githubusercontent.com/michellemayes/michellemayes/main/assets/stats.svg?v=a622b1ca" alt="GitHub stats, updated weekly" />
   </picture>
 </p>
 
@@ -32,7 +32,7 @@ Full-stack builder at the intersection of AI and product, based in Austin, TX. I
 **Pinned:**
 <!-- PINS:START -->
 <!-- generated weekly — do not edit by hand -->
-- [meta-doctor](https://github.com/michellemayes/meta-doctor) — Most monitoring tells you something broke. A doctor opens the pull request that fixes it. ★ 31
+- [meta-doctor](https://github.com/michellemayes/meta-doctor) — Most monitoring tells you something broke. A doctor opens the pull request that fixes it. ★ 32
 - [terrarium](https://github.com/michellemayes/terrarium) — A tiny terrarium to view your TSX & JSX components. Lightweight Mac app built with Tauri & Rust. ★ 14
 - [magic-words](https://github.com/michellemayes/magic-words) — Describe your problem in plain language. Get the phrase that steers Claude straight at it. Or install the CC plugin and stop having to. ★ 6
 - [Sidequest](https://github.com/michellemayes/Sidequest) — Turn any Slack message into a coding-agent session in one click. ★ 6
